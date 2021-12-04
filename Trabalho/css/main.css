@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    min-height: 100vw;
+    text-align: center;
+  }
+  
+  header {
+    background: rgb(221, 19, 248);
+    padding: 0.3rem;
+    margin-bottom: 03rem;
+  }
+  
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  header nav .searchEl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  header nav .searchEl img {
+    min-width: 20px;
+    max-width: 10vh;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+   flex-grow: 1;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    padding: 0.3rem;
+  }
+  
+  header nav input {
+    padding: 0.7rem;
+  }
+  
+  main {
+    padding: 0 10vw;
+  }
+  
+  main button {
+    padding: 1.5vh;
+    margin: 1vw 0;
+  }
+  
+  main section {
+    margin: 8rem 0;
+  }
+  
+  main h2 {
+    text-align: left;
+  }
+  
+  main #personal div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  
+  main #personal div #picNathan3345 {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin: 0 2.5rem 1rem 2.5rem;
+    max-height: 45vh;
+    min-height: 20vh;
+    border-radius: 10%;
+  }
+  
+  main #personal div .personalContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
+    max-width: 80vw;
+    min-width: 300px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  
+  main #personal div .personalContainer #git-stats {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 2.5rem 1rem 2.5rem;
+    max-width: 80vw;
+    min-width: 300px;
+  }
+  
+  main #personal div .personalContainer .socialTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  main #personal div .personalContainer #personalTextContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+     align-items: flex-end;
+  }
+  
+  main #personal div .personalContainer p {
+    padding: 1rem 0.5rem;
+  }
+  
+  main #personal div .personalContainer #socialContainer .socialImg {
+    max-height: 15vh;
+    min-height: 5vh;
+    margin: 1rem;
+  }
+  
+  main .containerProjects .titleContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  main .containerProjects .projImgContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+  }
+  
+  main .containerProjects .projImgEl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 300px;
+    margin: 1rem 0.5rem;
+  }
+  
+  main .containerSearch {
+    display: none;
+  }
+  
+  main .containerSearch .titleSearch {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  
+  main .containerSearch .searchImgContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+  }
+  
+  main .containerSearch .searchImgEl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    max-width: 300px;
+    min-width: 200px;
+    margin: 1rem 0.5rem;
+  }
+  
+  main section #moreProj {
+    float: right;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+  
+  main #exp ul li {
+    list-style-type: none;
+  }
+  
+  main #exp .expEl {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  main #exp .expEl div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    min-width: 300px;
+  }
+  
+  main #exp .expEl div p {
+    margin: 3vw 0;
+  }
+  
+  main #exp .expEl div h4 {
+    opacity: 0.5;
+  }
+  
+  main #exp .expEl .expImg {
+    max-width: 25vh;
+    min-width: 240px;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  
+  main #exp button {
+    float: right;
+  }
+  
+  main #repo #repoAll {
+    margin: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  main #repo #repoAll .repoUnit {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 400px;
+    max-height: 30vh;
+    text-align: left;
+    padding-top: 0.5rem;
+    min-width: 400px;
+    max-width: 10vh;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+  
+  main #repo #repoAll .repoUnit a {
+    width: 6rem;
+  }
+  
+  main #repo #repoAll .repoUnit .repoImg {
+    margin: 1rem;
+    height: 8vh;
+  }
+  
+  main #repo #repoAll .repoUnit .repoDesc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  
+  main #repo #repoAll .repoUnit .repoDesc p {
+    margin: 0.5rem 0;
+  }
+  
+  main #repo button {
+    float: right;
+  }
+  
+  main #conteudo #conteudoContainer {
+    margin: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
+  }
+  
+  main #conteudo #conteudoContainer .conteudoUnit {
+    max-width: 40vh;
+    min-width: 20rem;
+  }
+  
+  main #conteudo #conteudoContainer .conteudoUnit iframe {
+    width: 100%;
+  }
+  
+  main #conteudo #conteudoContainer .conteudoUnit p {
+    text-align: left;
+    padding: 0.5rem 0;
+  }
+  
+  main #conteudo button {
+    float: right;
+  }
+  
+  footer {
+    background: rgb(143, 101, 240);
+    padding: 3rem;
+  }

@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Profile</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="#personal">perfil</a>
+        <p>|</p>
+        <a href="#proj">projetos</a>
+        <p>|</p>
+        <a href="#exp">experiência</a>
+        <p>|</p>
+        <a href="#repo">repositórios github</a>
+        <p>|</p>
+        <a href="#conteudo">conteúdo</a>
+        <div class="searchEl">
+          <label for="search"></label><input name="search" type="text"  value="" placeholder="Pesquisar Usuários no Github..."/>
+          <a href="#containerSearchRedirect">
+            <button id="searchBtn">
+              <img src="img/search-svgrepo-com.svg" alt="Pesquisar Usuários no Github"/>
+            </button>
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="personal">
+      </section>
+      <section id="proj" class="containerProjects">
+        <div class="titleContainer">
+          <h2>Projetos</h2>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+          </div>
+        </div>
+        <div class="projImgContainer">
+          <div class="projImgEl">
+            <img src="img/hm.png" alt=""/>
+            <h4>Certificado De Como funciona o async/await</h4>
+          </div>
+          <div class="projImgEl">
+            <img src="img/pj1.png" alt=""/>
+            <h4>Certificado De Desenvolvendo um jogo da memória</h4>
+          </div>
+        </div>
+        <button id="moreProj">Carregar mais projetos</button>
+      </section>
+      <section id="exp">
+        <h2>Experiências</h2>
+        <ul>
+          <li>
+            <article class="expEl">
+              <img class="expImg" src="http://radioamerica.arquidiocesebh.org.br/wp-content/uploads/2017/10/Logo-PUC-Minas-Sobre.png" alt=""/>
+              <div>
+                <h3>Estagiário De Rede De Computadores</h3>
+                <p> Trabalho como Help Desk e assistencia em Computadores!</p>
+                <h4>Período: 01/07/2021 a 04/12/2021</h4>
+              </div>
+            </article>
+          </li>
+          <li>
+          </div>
+          </li>
+        </ul>
+        <button>Carregar mais experiências</button>
+      </section>
+
+      <section id="repo">
+        <h2>Repositórios Github (Obtidos via API)</h2>
+        <div id="repoAll">
+        </div>
+        <button>Carregar mais repositórios</button>
+      </section>
+
+      <section id="conteudo">
+        <h2>Recomendação de conteúdo</h2>
+        <div id="conteudoContainer">
+          <span class="conteudoUnit">
+            <iframe src="https://www.youtube.com/embed/S9uPNppGsGo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><strong>Vídeo: </strong>Curso Python</p>
+            <p><strong>Diretor: </strong> CursoemVídeo</p>
+          </span>
+          <span class="conteudoUnit">
+            <iframe src="https://www.youtube.com/embed/sZAxLRMxEUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><strong>Vídeo: </strong>Java // Dicionário do Programador</p>
+            <p><strong>Diretor: </strong>CódigoFonteTV</p>
+          </span>
+          <span class="conteudoUnit">
+            <iframe src="https://www.youtube.com/embed/WHHuqsbvsJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p><strong>Vídeo: </strong>Crie um Carousel de Imagens com JavaScript 😎</p>
+            <p><strong>Diretor: </strong>DankiCode</p>
+          </span>
+        </div>
+        <button>Carregar mais recomendações</button>
+      </section>
+
+      <section id="proj" class="containerSearch">
+        <div class="titleSearch">
+          <h2>Resultados da Pesquisa</h2>
+        </div>
+        <div id="searchContainer" class="searchImgContainer">
+
+        </div>
+      </section>
+      <div id="containerSearchRedirect"></div>
+    </main>
+
+    <footer>
+      <p>
+        Copyright 2021 - Disciplina de Desenvolvimento de Interfaces Web -
+        <strong>ICEI PUC Minas</strong>
+      </p>
+    </footer>
+    <script src="js/app.js"></script>
+  </body>
+</html>
